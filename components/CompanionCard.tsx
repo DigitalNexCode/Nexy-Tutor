@@ -10,7 +10,7 @@ interface CompanionComponentProps {
     subject: string;
 }
 
-const CompenionCard = ({ id, name, topic, duration, color, subject }: CompanionComponentProps) => {
+const CompanionCard = ({ id, name, topic, duration, color, subject }: CompanionComponentProps) => {
   return (
     <article className="companion-card" style={{backgroundColor: color}}>
         <div className="flex justify-between items-center">
@@ -34,4 +34,4 @@ const CompenionCard = ({ id, name, topic, duration, color, subject }: CompanionC
   )
 }
 
-export default CompenionCard
+export default CompanionCard
